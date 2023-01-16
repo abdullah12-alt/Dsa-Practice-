@@ -13,6 +13,7 @@ class LinkedList:
             NewNode = Node(data)
             self.head = NewNode
         else:
+            
             NewNode = Node(data)
             NewNode.next=self.head
             self.head= NewNode
